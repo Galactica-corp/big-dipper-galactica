@@ -73,9 +73,9 @@ RUN export SENTRYCLI_SKIP_DOWNLOAD=$([ -z "${NEXT_PUBLIC_SENTRY_DSN}" ] && echo 
   && yarn install --inline-builds
 
 ## Build the project
-RUN ([ -z "${NEXT_PUBLIC_SENTRY_DSN}" ] || yarn node packages/shared-utils/configs/sentry/install.js) \
-  && yarn workspace ${PROJECT_NAME} add sharp \
-  && yarn workspace ${PROJECT_NAME} run build
+RUN ([ -z "${NEXT_PUBLIC_SENTRY_DSN}" ] || yarn node packages/shared-utils/configs/sentry/install.js) 
+RUN yarn workspace ${PROJECT_NAME} add sharp 
+RUN yarn workspace ${PROJECT_NAME} run build
 
 ################################################################################
 
