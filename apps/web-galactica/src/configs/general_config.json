@@ -1,0 +1,10 @@
+{
+    "maintainer": {
+        "name": "GalacticaNetwork",
+        "url": "https://galactica.com"
+    },
+    "github": {
+        "reportIssue": "https://github.com/Galactica-corp/galactica/issues"
+    },
+    "version": "v3.0.0"
+}
