@@ -227,9 +227,9 @@
         }
       },
       "endpoints": {
-        "graphql": "https://10.55.0.12:8080/v1/graphql`",
-        "graphqlWebsocket": "wss://10.55.0.12:8080/v1/graphql",
-        "publicRpcWebsocket": "https://evm-rpc-http-andromeda.galactica.com/websocket"
+        "graphql": "https://hasura-andromeda.galactica.com/v1/graphql",
+        "graphqlWebsocket": "wss://hasura-andromeda.galactica.com/v1/graphql",
+        "publicRpcWebsocket": "wss://evm-rpc-ws-andromeda.galactica.com"
       },
       "marketing": {
         "matomoURL": "https://analytics.bigdipper.live",
